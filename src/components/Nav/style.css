@@ -1,0 +1,15 @@
+color-palette {
+  background-color: rgba(165, 0, 0, 1);
+  background-color: rgba(50, 104, 189, 1);
+  background-color: rgba(0, 153, 31, 1);
+  background-color: rgba(153, 153, 153, 1);
+  background-color: rgba(70, 0, 97, 1);
+}
+
+nav {
+  background-color: rgba(50, 104, 189, 1);
+  color: #fff;
+  width: 100%;
+  min-height: 70px;
+  position: sticky;
+}
