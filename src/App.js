@@ -7,14 +7,23 @@ import Images from './images.json';
 import Logos from './logos.json';
 
 class App extends Component {
-  state = {}
+  state = {
+    images: [],
+  }
+
+  handleClick = id => {
+    console.log('clicked');
+  }
 
   render() {
     return (
       <div>
         <Nav logo={Logos} />
         <Header logo={Logos} />
-        <Main images={Images} />
+        <Main 
+          images={Images} 
+          handler={this.handleClick}
+        />
         <Footer />
       </div>
     )
