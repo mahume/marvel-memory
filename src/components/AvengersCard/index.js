@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.css';
 
-function AvengersCard({ image, name }) {
+function AvengersCard({ id, image, name, handler }) {
   return (
     <img
       className="character"
       src={image}
       alt={name}
+      onClick={() => handler(id)}
     >
     </img>
   );

@@ -9,6 +9,7 @@ function Main({ images, handler }) {
           <AvengersCard 
             className="character" 
             key={image.id} 
+            id={image.id}
             name={image.name}
             image={image.image} 
             handler={handler}

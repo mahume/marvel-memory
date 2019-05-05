@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   handleClick = id => {
-    console.log('clicked');
+    console.log(` ${id} clicked`);
   }
 
   render() {
