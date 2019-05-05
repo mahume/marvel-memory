@@ -8,21 +8,22 @@ import Logos from './logos.json';
 
 class App extends Component {
   state = {
-    images: [1, 2],
+    images: [],
     wins: 0,
     loses: 0,
   }
 
   handleClick = id => {
-    
-    console.log(` ${id}`);
     const images = this.state.images;
     
     if (!images.includes(id)) {
       this.setState({ wins: this.state.wins + 1 })
+      this.setState({ images: [...this.state.images, id] })
     } else {
       this.setState({ loses: this.state.loses + 1 })
     }    
+    console.log(this.state.images);
+    
   }
   
   handleShuffle = arr => {
