@@ -14,4 +14,14 @@ main {
   justify-content: center;
 }
 
+@media (max-width: 992px) {
+  #image-wrapper {
+    grid-template-columns: repeat(3, 210px);
+  }
+}
 
+@media (max-width: 768px) {
+  #image-wrapper {
+    grid-template-columns: repeat(2, 210px);
+  }
+}
