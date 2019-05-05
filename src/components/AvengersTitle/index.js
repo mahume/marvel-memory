@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.css';
 
-function AvengersTitle({ image, name }) {  
+function AvengersTitle({ logo }) {  
   return (
     <img 
       id="avengers-title" 
-      src={image.image} 
-      alt={image.name}
+      src={logo.image} 
+      alt={logo.name}
     ></img>
   );
 }

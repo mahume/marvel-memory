@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import Images from './images.json';
+import Logos from './logos.json';
 
 class App extends Component {
   state = {}
@@ -11,9 +12,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav image={Images} />
-        <Header image={Images} />
-        <Main />
+        <Nav logo={Logos} />
+        <Header logo={Logos} />
+        <Main image={Images} />
         <Footer />
       </div>
     )

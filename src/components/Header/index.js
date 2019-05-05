@@ -2,10 +2,10 @@ import React from 'react';
 import AvengersTitle from '../AvengersTitle';
 import './style.css';
 
-function Header({ image }) {
+function Header({ logo }) {
   return (
     <header>
-      <AvengersTitle image={image[1]} />
+      <AvengersTitle logo={logo[1]} />
     </header>
   );
 }

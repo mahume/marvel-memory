@@ -1,12 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Avengers Logo",
-    "image": "assets/images/avengers-logo.png"
+    "name": "Ant-Man",
+    "image": "assets/images/ant-man.jpg"
   },
   {
     "id": 2,
-    "name": "Avengers Title",
-    "image": "assets/images/marvel-studios.png"
+    "name": "Black Panther",
+    "image": "assets/images/black-panther.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Black Widow",
+    "image": "assets/images/black-widow.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Captain America",
+    "image": "assets/images/captain-america.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Doctor Strange",
+    "image": "assets/images/doctor-strange.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fury",
+    "image": "assets/images/fury.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hulk",
+    "image": "assets/images/hulk.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Iron Man",
+    "image": "assets/images/iron-man.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Scarlet Witch",
+    "image": "assets/images/scarlet-witch.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Spider-man",
+    "image": "assets/images/spider-man.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Thor",
+    "image": "assets/images/thor.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Vision",
+    "image": "assets/images/vision.jpg"
   }
 ]

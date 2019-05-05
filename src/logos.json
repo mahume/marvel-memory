@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Avengers Logo",
+    "image": "assets/images/avengers-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Avengers Title",
+    "image": "assets/images/marvel-studios.png"
+  }
+]

@@ -3,11 +3,11 @@ import AvengersLogo from '../AvengersLogo';
 import Score from '../Score';
 import './style.css';
 
-function Nav({ image }) {  
+function Nav({ logo }) {  
   return (
     <nav>
       <div id="navTop">
-        <AvengersLogo image={image[0]} />
+        <AvengersLogo logo={logo[0]} />
         <Score />
       </div>
       <div id="navBottom"></div>
