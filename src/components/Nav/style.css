@@ -5,7 +5,9 @@ color-palette {
   background-color: rgba(153, 153, 153, 1);
   background-color: rgba(70, 0, 97, 1);
 }
-
+body {
+  margin: 0;
+}
 nav {
   color: #fff;
   width: 100%;
@@ -18,6 +20,6 @@ nav {
   min-height: 70px;
 }
 #navBottom {
-  background-color: rgba(70, 0, 97, 1);
+  background-color: rgba(153, 153, 153, 1);
   min-height: 5px;
 }
