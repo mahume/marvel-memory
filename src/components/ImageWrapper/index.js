@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import AvengersCard from '../AvengersCard';
 import './style.css';
 
-class ImageWrapper extends Component {
-  state = {};
-  
-  render() {
-    return (
-      <Nav />
-    )
-  }
+function ImageWrapper({ images }) {
+  return (
+    <div>
+      {images.map(image => <img key={image.id} src={image.image} alt={image.name}></img>)}
+    </div>
+  )
 }
 
 export default ImageWrapper;

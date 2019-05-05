@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <Nav logo={Logos} />
         <Header logo={Logos} />
-        <Main image={Images} />
+        <Main images={Images} />
         <Footer />
       </div>
     )
