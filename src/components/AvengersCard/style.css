@@ -1,6 +1,12 @@
 .character {
+  margin: 10px;
   width: 150px;
   height: auto;
   border: solid 3px #fff;
   margin-top: 5px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.character:hover {
+  transform: scale(1.1);
 }
