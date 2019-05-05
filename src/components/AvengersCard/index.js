@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.css';
 
-function AvengersCard({ image }) {
+function AvengersCard({ image, name }) {
   return (
     <img
       className="character"
-      src={image.image}
-      alt={image.name}
+      src={image}
+      alt={name}
     >
     </img>
   );
