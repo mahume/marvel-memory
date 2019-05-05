@@ -10,8 +10,9 @@ class App extends Component {
   state = {
     images: [],
     rounds: 0,
-    wins: 0,
-    lost: false,
+    correct: 0,
+    clickCorrect: false,
+    clickLost: false,
   }
 
   handleClick = id => {
@@ -20,15 +21,20 @@ class App extends Component {
     if (this.state.images.length === 11) {
       this.setState({ rounds: this.state.rounds + 1 })
       this.setState({ images: [] })
-      this.setState({ wins: 0 })
+      this.setState({ correct: 0 })
+      this.setState({ clickCorrect: false })
+      this.setState({ clickLost: false })
     } else if (!images.includes(id)) {
-      this.setState({ wins: this.state.wins + 1 })
+      this.setState({ correct: this.state.correct + 1 })
       this.setState({ images: [...this.state.images, id] })
+      this.setState({ clickCorrect: true })
+      this.setState({ clickLost: false })
     } else {
       this.setState({ images: [] })
       this.setState({ rounds: 0 })
-      this.setState({ wins: 0 })
-      this.setState({ lost: true })
+      this.setState({ correct: 0 })
+      this.setState({ clickCorrect: false })
+      this.setState({ clickLost: true })
     }    
   }
   
@@ -43,7 +49,7 @@ class App extends Component {
         <Nav 
           logo={Logos} 
           rounds={this.state.rounds}
-          wins={this.state.wins}
+          correct={this.state.correct}
           />
         <Header 
           logo={Logos}
@@ -51,7 +57,8 @@ class App extends Component {
         <Main 
           images={Images} 
           handler={this.handleClick}
-          lost={this.state.lost}
+          clickCorrect={this.state.clickCorrect}
+          clickLost={this.state.clickLost}
         />
         <Footer />
       </div>

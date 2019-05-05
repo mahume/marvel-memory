@@ -9,3 +9,7 @@
 .character:hover {
   transform: scale(1.1);
 }
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}

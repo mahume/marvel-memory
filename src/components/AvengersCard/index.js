@@ -1,11 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function AvengersCard({ id, image, name, handler, lost }) {
-  let className = 'character'
-  if (lost) {
-    className += ' animated shake'
-  }
+function AvengersCard({ className, id, image, name, handler }) {  
   return (
     <img
       className={className}
