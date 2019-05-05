@@ -9,6 +9,7 @@ import Logos from './logos.json';
 class App extends Component {
   state = {
     images: [],
+    rounds: 0,
     wins: 0,
     loses: 0,
   }
@@ -16,7 +17,11 @@ class App extends Component {
   handleClick = id => {
     const images = this.state.images;
     
-    if (!images.includes(id)) {
+    if (this.state.images.length === 11) {
+      this.setState({ rounds: this.state.rounds + 1 })
+      this.setState({ images: [] })
+      this.setState({ wins: 0 })
+    } else if (!images.includes(id)) {
       this.setState({ wins: this.state.wins + 1 })
       this.setState({ images: [...this.state.images, id] })
     } else {
@@ -37,6 +42,7 @@ class App extends Component {
       <div>
         <Nav 
           logo={Logos} 
+          rounds={this.state.rounds}
           wins={this.state.wins}
           loses={this.state.loses}
         />

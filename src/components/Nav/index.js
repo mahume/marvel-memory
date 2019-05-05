@@ -3,7 +3,7 @@ import AvengersLogo from '../AvengersLogo';
 import Score from '../Score';
 import './style.css';
 
-function Nav({ logo, wins, loses }) {  
+function Nav({ logo, rounds, wins, loses }) {  
   return (
     <nav>
       <div id="navTop">
@@ -11,6 +11,7 @@ function Nav({ logo, wins, loses }) {
           logo={logo[0]} 
         />
         <Score 
+          rounds={rounds}
           wins={wins}
           loses={loses}
         />

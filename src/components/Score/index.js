@@ -1,10 +1,14 @@
 import React from 'react';
 import './style.css'
 
-function Score({ wins, loses }) {  
+function Score({ rounds, wins, loses }) {  
   return (
     <div id="score">
-      Wins <span>{wins}</span> | Loses <span>{loses}</span>
+      Round:<span className="number">{rounds}</span>
+      <br />
+      Wins:<span className="number">{wins}</span>
+      <br />
+      Loses:<span className="number">{loses}</span>
     </div>
   );
 }

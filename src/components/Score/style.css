@@ -1,4 +1,9 @@
+.number {
+  float: right;
+}
+
 #score {
+  width: 100px;
   font-family: 'Hind', sans-serif;
   font-weight: bold;
   margin-right: 20px;
