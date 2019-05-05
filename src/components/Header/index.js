@@ -1,9 +1,12 @@
 import React from 'react';
+import AvengersTitle from '../AvengersTitle';
 import './style.css';
 
-function Header(props) {
+function Header({ image }) {
   return (
-    <header></header>
+    <header>
+      <AvengersTitle image={image[1]} />
+    </header>
   );
 }
 
