@@ -4,3 +4,14 @@ main {
   border-top: solid 3px #fff;
 }
 
+#image-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 210px);
+  grid-template-rows: repeat(auto-fill, 210px);
+  grid-auto-flow: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+

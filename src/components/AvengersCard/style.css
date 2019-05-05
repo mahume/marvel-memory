@@ -1,10 +1,10 @@
 .character {
-  margin: 10px;
   width: 200px;
   height: auto;
   border: solid 3px #fff;
-  margin-top: 5px;
   filter: drop-shadow(5px 5px 5px #222);
+
+  place-self: center;
 }
 
 .character:hover {
