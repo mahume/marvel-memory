@@ -2,7 +2,7 @@ import React from 'react';
 import AvengersCard from '../AvengersCard';
 import './style.css';
 
-function Main({ images, handler }) {
+function Main({ images, handler, lost }) {
   return (
     <main>
       <div id="image-wrapper">
@@ -14,6 +14,7 @@ function Main({ images, handler }) {
               name={image.name}
               image={image.image} 
               handler={handler}
+              lost={lost}
             ></AvengersCard>
           )
         )}

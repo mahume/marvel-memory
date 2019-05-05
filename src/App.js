@@ -11,7 +11,7 @@ class App extends Component {
     images: [],
     rounds: 0,
     wins: 0,
-    loses: 0,
+    lost: false,
   }
 
   handleClick = id => {
@@ -25,11 +25,11 @@ class App extends Component {
       this.setState({ wins: this.state.wins + 1 })
       this.setState({ images: [...this.state.images, id] })
     } else {
-      this.setState({ loses: this.state.loses + 1 })
       this.setState({ images: [] })
+      this.setState({ rounds: 0 })
+      this.setState({ wins: 0 })
+      this.setState({ lost: true })
     }    
-    console.log(this.state.images);
-    
   }
   
   handleShuffle = arr => {
@@ -44,14 +44,14 @@ class App extends Component {
           logo={Logos} 
           rounds={this.state.rounds}
           wins={this.state.wins}
-          loses={this.state.loses}
-        />
+          />
         <Header 
           logo={Logos}
-        />
+          />
         <Main 
           images={Images} 
           handler={this.handleClick}
+          lost={this.state.lost}
         />
         <Footer />
       </div>

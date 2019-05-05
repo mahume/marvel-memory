@@ -1,10 +1,14 @@
 import React from 'react';
 import './style.css';
 
-function AvengersCard({ id, image, name, handler }) {
+function AvengersCard({ id, image, name, handler, lost }) {
+  let className = 'character'
+  if (lost) {
+    className += ' animated shake'
+  }
   return (
     <img
-      className="character"
+      className={className}
       src={image}
       alt={name}
       onClick={() => handler(id)}

@@ -6,7 +6,6 @@
 
   place-self: center;
 }
-
 .character:hover {
   transform: scale(1.1);
 }

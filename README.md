@@ -15,6 +15,7 @@
 ## Built With
 
 - React
+- Animate.css
 
 ## Author
 
