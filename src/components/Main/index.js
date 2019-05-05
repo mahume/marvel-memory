@@ -2,7 +2,7 @@ import React from 'react';
 import AvengersCard from '../AvengersCard';
 import './style.css';
 
-function Main({ images, handler, clickCorrect, clickLost }) {
+function Main({ images, handler, clickLost }) {
   const className = clickLost ? 'character animate shake' : 'character'
   
   return (

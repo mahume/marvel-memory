@@ -2,6 +2,8 @@
 
 ## About
 
+![Homepage](./public/assets/images/homepage.png)
+
 - Memory game to help keep you sharp
 
 ## Getting Started

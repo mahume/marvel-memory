@@ -50,6 +50,7 @@ class App extends Component {
           logo={Logos} 
           rounds={this.state.rounds}
           correct={this.state.correct}
+          clickCorrect={this.state.clickCorrect}
           />
         <Header 
           logo={Logos}
@@ -57,7 +58,6 @@ class App extends Component {
         <Main 
           images={Images} 
           handler={this.handleClick}
-          clickCorrect={this.state.clickCorrect}
           clickLost={this.state.clickLost}
         />
         <Footer />

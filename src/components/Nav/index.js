@@ -3,7 +3,9 @@ import AvengersLogo from '../AvengersLogo';
 import Score from '../Score';
 import './style.css';
 
-function Nav({ logo, rounds, correct }) {  
+function Nav({ logo, rounds, correct, clickCorrect }) {  
+  const className = clickCorrect ? 'number animated flash' : 'number'
+
   return (
     <nav>
       <div id="navTop">
@@ -11,6 +13,7 @@ function Nav({ logo, rounds, correct }) {
           logo={logo[0]} 
         />
         <Score 
+          className={className}
           rounds={rounds}
           correct={correct}
         />
