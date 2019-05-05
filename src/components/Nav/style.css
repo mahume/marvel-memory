@@ -7,9 +7,17 @@ color-palette {
 }
 
 nav {
-  background-color: rgba(50, 104, 189, 1);
   color: #fff;
   width: 100%;
+  position: fixed;
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.22);
+}
+#navTop {
+  background-color: rgba(50, 104, 189, 1);
   min-height: 70px;
-  position: sticky;
+}
+#navBottom {
+  background-color: rgba(70, 0, 97, 1);
+  min-height: 5px;
 }
