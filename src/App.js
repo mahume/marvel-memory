@@ -21,6 +21,7 @@ class App extends Component {
       this.setState({ images: [...this.state.images, id] })
     } else {
       this.setState({ loses: this.state.loses + 1 })
+      this.setState({ images: [] })
     }    
     console.log(this.state.images);
     
