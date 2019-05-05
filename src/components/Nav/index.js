@@ -1,5 +1,6 @@
 import React from 'react';
-import AvengersLogo from '../AvengersLogo'
+import AvengersLogo from '../AvengersLogo';
+import Score from '../Score';
 import './style.css';
 
 function Nav({ image }) {  
@@ -7,6 +8,7 @@ function Nav({ image }) {
     <nav>
       <div id="navTop">
         <AvengersLogo image={image[0]} />
+        <Score />
       </div>
       <div id="navBottom"></div>
     </nav>

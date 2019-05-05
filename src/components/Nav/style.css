@@ -18,6 +18,10 @@ nav {
 #navTop {
   background-color: rgba(50, 104, 189, 1);
   min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 #navBottom {
   background-color: rgba(153, 153, 153, 1);
