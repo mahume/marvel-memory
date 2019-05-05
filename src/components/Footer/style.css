@@ -1,6 +1,10 @@
-footer {
+#footerTop {
+  background-color: rgba(50, 104, 189, 1);
+  height: 70px;
+  width: 100%;
+}
+#footerBottom {
   background-color: rgba(70, 0, 97, 1);
-  color: #fff;
-  height: 80px;
+  height: 30px;
   width: 100%;
 }
