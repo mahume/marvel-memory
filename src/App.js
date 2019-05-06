@@ -38,10 +38,7 @@ class App extends Component {
     }    
   }
   
-  handleShuffle = arr => {
-    arr.sort(() => Math.random() - 0.5);
-  }
-
+  handleShuffle = arr => arr.sort(() => Math.random() - 0.5)
 
   render() {
     return (
@@ -54,9 +51,9 @@ class App extends Component {
           />
         <Header 
           logo={Logos}
-          />
+        />
         <Main 
-          images={Images} 
+          images={this.handleShuffle(Images)} 
           handler={this.handleClick}
           clickLost={this.state.clickLost}
         />

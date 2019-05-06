@@ -3,6 +3,8 @@ import AvengersCard from '../AvengersCard';
 import './style.css';
 
 function Main({ images, handler, clickLost }) {
+  console.log(images);
+  
   const className = clickLost ? 'character animate shake' : 'character'
   
   return (
