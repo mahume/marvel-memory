@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marvel-memory/static/css/main.b6e5db5e.chunk.css",
+    "main.js": "/marvel-memory/static/js/main.eef25112.chunk.js",
+    "main.js.map": "/marvel-memory/static/js/main.eef25112.chunk.js.map",
+    "runtime~main.js": "/marvel-memory/static/js/runtime~main.9e16009b.js",
+    "runtime~main.js.map": "/marvel-memory/static/js/runtime~main.9e16009b.js.map",
+    "static/js/2.b084e1fe.chunk.js": "/marvel-memory/static/js/2.b084e1fe.chunk.js",
+    "static/js/2.b084e1fe.chunk.js.map": "/marvel-memory/static/js/2.b084e1fe.chunk.js.map",
+    "index.html": "/marvel-memory/index.html",
+    "precache-manifest.cabfecfd363fb56b77c7dedffec6918f.js": "/marvel-memory/precache-manifest.cabfecfd363fb56b77c7dedffec6918f.js",
+    "service-worker.js": "/marvel-memory/service-worker.js",
+    "static/css/main.b6e5db5e.chunk.css.map": "/marvel-memory/static/css/main.b6e5db5e.chunk.css.map"
+  }
+}
