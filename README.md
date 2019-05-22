@@ -5,7 +5,7 @@
 ## About
 
 - Memory game to help keep you sharp
-- Test app on [GitHub Pages](https://mahume.github.io/marvel-memory/)
+- Test app on [GitHub Pages](https://mahume.github.io/marvel-memory)
 
 ## Getting Started
 
