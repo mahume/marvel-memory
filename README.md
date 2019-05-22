@@ -22,4 +22,4 @@
 
 ## Author
 
-- Mike Hume
+- [Mike Hume](https://mahume.github.io/)
