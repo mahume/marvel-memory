@@ -1,6 +1,6 @@
 # Marvel Memory
 
-![Homepage](./public/assets/images/homepage.png)
+![Homepage](./assets/images/homepage.png)
 
 ## About
 
