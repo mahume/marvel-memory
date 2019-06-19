@@ -4,11 +4,12 @@
 
 ## About
 
-- Memory game to help keep you sharp
-- Test app on [GitHub Pages](https://mahume.github.io/marvel-memory)
+Memory game to help keep you sharp / nerd out.
 
 ## Getting Started
 
+[Test it out](https://mahume.github.io/marvel-memory)
+- 
 1. Clicking on an image that has not been selected will increment the score.
 2. After each click the images will shuffle themselves.
 3. Continue to click on images that have not been selected yet.
